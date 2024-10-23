@@ -13,5 +13,5 @@
 def predict(args_dict):
 #     arg = args_dict.get('arg1')
 #     predictor(arg)
-    return {'prediction': 'not implemented sdx'}
+    return {'prediction': 'not implemented - input - ' + json.dumps(args_dict)}
 
